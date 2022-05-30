@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+.nav-paginacao {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.nav-paginacao > div {
+    padding: 10px;
+    background-color: #e1e1e1;
+}
+
+.nav-paginacao > div:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-paginacao > div.active {
+    background-color: white;
+} 
+
+.card {
+    margin-bottom: 10px;
+}
